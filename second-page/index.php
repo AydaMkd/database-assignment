@@ -12,10 +12,10 @@
 	</form>
 	<?php
 	if ($_SERVER["REQUEST_METHOD"] == "POST"){
-$servername = "aca-db-1.chyesmv0fupq.us-east-2.rds.amazonaws.com";
-$username = "admin";
-$password = "password";
-$database= "project1";
+$servername = "";
+$username = "";
+$password = "";
+$database= "";
 // Create connection
 $conn = new mysqli($servername, $username, $password, $database);
 // Check connection
